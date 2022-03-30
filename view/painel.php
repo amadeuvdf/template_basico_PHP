@@ -1,9 +1,8 @@
 <?php
-session_start();
+
 
 include('../controller/verifica_login.php');
 
-print_r($_SESSION);
 ?>
 
 <!DOCTYPE html>
@@ -20,6 +19,7 @@ print_r($_SESSION);
 </head>
 
 <body>
+<h2><a href="texto.php">Painel de texto</a></h2>
    <h2><a href="../controller/logout.php">Sair</a></h2>
 </body>
 

@@ -1,8 +1,8 @@
 <?php
 define('HOST', '127.0.0.1');
 define('USUARIO', 'root');
-define('SENHA', 'password');
-define('DB', 'login');
+define('SENHA', 'root');
+define('DB', 'banco');
 
 $conexao = mysqli_connect(HOST, USUARIO, SENHA, DB);
 
