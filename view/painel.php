@@ -19,8 +19,10 @@ include('../controller/verifica_login.php');
 </head>
 
 <body>
-<h2><a href="texto.php">Painel de texto</a></h2>
-   <h2><a href="../controller/logout.php">Sair</a></h2>
+    <h2><a href="texto.php">Painel de texto</a></h2>
+    <h2><a href="Pagina_teste_bulma.php">Pagina exemplo do Bulma</a></h2>
+    <h2><a href="Pagina_teste_bootstrap.php">Pagina exemplo do BootStrap</a></h2>
+    <h2><a href="../controller/logout.php">Sair</a></h2>
 </body>
 
 </html>
